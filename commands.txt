@@ -1,0 +1,2 @@
+docker build . -t bnh440/rust_aarch64 -f Dockerfile
+docker run --rm -ti -v C:\Users\bnh44\Projects\filament-usage-cli:/app bnh440/rust_aarch64
